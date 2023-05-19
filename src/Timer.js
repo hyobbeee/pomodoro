@@ -83,7 +83,7 @@ function Timer() {
           ? <Playbutton onClick={() => { setIsPaused(false); isPausedRef.current = false; }}/> 
           : <PauseButton onClick={() => { setIsPaused(true); isPausedRef.current = true; }}/>}
       </div>
-      <div className='flex justify-center bg-[#ffffff26] rounded-lg w-48	mx-auto mt-5'>
+      <div className='flex justify-center bg-grey rounded-lg w-48	mx-auto mt-5'>
         <SettingButton onClick={() => settingsInfo.setShowSettings(true)} />
       </div>
     </>
